@@ -1,0 +1,67 @@
+#main {
+  margin: 20px;
+  background: #f5f1e5;
+}
+
+#title {
+  text-align: center;
+  font-size: 3vw;
+  color: #4a4542;
+  max-width: 100%;
+  height: auto;
+  height: 12vw;
+  background: white;
+  display: flex;
+  justify-content: center;
+
+  margin: 10px 0px;
+}
+
+#titulo {
+  align-self: center;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+}
+
+#image {
+  max-width: 100%;
+  height: 40%;
+}
+
+#img-caption {
+  font-size: 14px;
+  margin-top: 2px;
+  color: gray;
+  align-self: flex-end;
+}
+
+#tribute-info {
+  border-radius: 10px;
+  color: #4a4542;
+  font-size: 1.7vw;
+  text-align: justify;
+}
+
+#tribute-link {
+  font-size: 1.7vw;
+  border-radius: 5px;
+  background: #53616d;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 530;
+}
+
+#tribute-link:hover {
+  animation-name: boton;
+  animation-fill-mode: forwards;
+}
+@keyframes boton {
+  100% {
+    background-color: rgb(53, 113, 161);
+  }
+}
